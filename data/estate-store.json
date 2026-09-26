@@ -1,0 +1,253 @@
+{
+  "id": "estate_ramesh_sharma",
+  "lastUpdated": "2026-09-26T10:11:05.661Z",
+  "deceased": {
+    "fullName": "Ramesh Chandra Sharma",
+    "dateOfPassing": "2026-09-12",
+    "panNumber": "ABCPS1234F",
+    "hasAadhaar": true,
+    "employmentType": "salaried_private",
+    "employerName": "Infosys Technologies Ltd",
+    "hasWill": false,
+    "willProbated": false
+  },
+  "claimant": {
+    "fullName": "Pooja Sharma",
+    "relationship": "spouse",
+    "contactNumber": "+91 98765 43210",
+    "email": "pooja.sharma@example.com",
+    "panNumber": "BNMPP5678K",
+    "isSoleLegalHeir": false,
+    "hasOtherHeirsConsent": true
+  },
+  "assets": [
+    {
+      "id": "ast_epf_01",
+      "category": "epf_ppf",
+      "institutionName": "EPFO (Employees' Provident Fund)",
+      "accountOrFolioNumber": "UAN: 100982341299",
+      "estimatedValue": 1850000,
+      "hasNomineeRegistered": "yes",
+      "nomineeName": "Pooja Sharma (Spouse)",
+      "claimStatus": "documents_gathering",
+      "notes": "Eligible for Employees' Deposit Linked Insurance (EDLI) up to ₹7,00,000 under Form 5IF + PF Settlement Form 20 + Pension Form 10D.",
+      "relevantForms": [
+        "EPFO Form 20 (PF)",
+        "EPFO Form 10D (Monthly Pension)",
+        "EPFO Form 5IF (EDLI ₹7L Assurance)"
+      ]
+    },
+    {
+      "id": "ast_term_ins_01",
+      "category": "life_insurance",
+      "institutionName": "HDFC Life Insurance Co.",
+      "accountOrFolioNumber": "POL-98234712",
+      "estimatedValue": 10000000,
+      "hasNomineeRegistered": "yes",
+      "nomineeName": "Pooja Sharma (100% Beneficial Nominee)",
+      "claimStatus": "not_started",
+      "notes": "Term Life Policy: Under Section 39 of Insurance Act, beneficial nominee receives immediate claim without legal heir contest.",
+      "relevantForms": [
+        "HDFC Life Death Claim Intimation",
+        "Treating Physician Statement",
+        "Municipal Death Certificate"
+      ]
+    },
+    {
+      "id": "ast_bank_icici",
+      "category": "bank_account",
+      "institutionName": "ICICI Bank (Salary Account)",
+      "accountOrFolioNumber": "A/C: 002901598214",
+      "estimatedValue": 485000,
+      "hasNomineeRegistered": "yes",
+      "nomineeName": "Pooja Sharma",
+      "claimStatus": "not_started",
+      "notes": "Nominee registered. Claim can be settled within 15 days under RBI Master Circular without court intervention.",
+      "relevantForms": [
+        "ICICI Deceased Depositor Claim Form (Nominee)",
+        "Claimant KYC",
+        "Cancelled Cheque"
+      ]
+    },
+    {
+      "id": "ast_bank_sbi",
+      "category": "fixed_deposit",
+      "institutionName": "State Bank of India",
+      "accountOrFolioNumber": "FD No: 39481029481",
+      "estimatedValue": 650000,
+      "hasNomineeRegistered": "unknown",
+      "nomineeName": "Unknown / Not Verified",
+      "claimStatus": "not_started",
+      "notes": "Requires inquiry on nomination status. If no nominee, indemnity bond required for claims under ₹5 Lakhs.",
+      "relevantForms": [
+        "SBI Annexure-A (Claim by Nominee)",
+        "Annexure-B (Indemnity if No Nominee)"
+      ]
+    },
+    {
+      "id": "ast_mf_zerodha",
+      "category": "mutual_funds",
+      "institutionName": "Zerodha Coin / CAMS & KFintech",
+      "accountOrFolioNumber": "Demat: 1208160012345678",
+      "estimatedValue": 1420000,
+      "hasNomineeRegistered": "yes",
+      "nomineeName": "Pooja Sharma",
+      "claimStatus": "not_started",
+      "notes": "Centralized Transmission through KFintech / CAMS CAMSRep portal with transmission form.",
+      "relevantForms": [
+        "Form ISR-5 (Transmission Request)",
+        "Client Master List (CML)"
+      ]
+    }
+  ],
+  "liabilities": [
+    {
+      "id": "liab_home_loan",
+      "type": "home_loan",
+      "lenderName": "HDFC Bank Retail Assets",
+      "accountNumber": "HL-640192831",
+      "outstandingBalance": 4200000,
+      "monthlyEmiAmount": 46500,
+      "emiDueDate": 5,
+      "autoDebitActive": true,
+      "noticeSent": false,
+      "moratoriumRequested": false,
+      "hasLoanInsurancePolicy": "yes"
+    },
+    {
+      "id": "liab_cc_icici",
+      "type": "credit_card",
+      "lenderName": "ICICI Bank Credit Cards",
+      "accountNumber": "CC-4315-XXXX-XXXX-8921",
+      "outstandingBalance": 68000,
+      "monthlyEmiAmount": 68000,
+      "emiDueDate": 18,
+      "autoDebitActive": false,
+      "noticeSent": false,
+      "moratoriumRequested": false,
+      "hasLoanInsurancePolicy": "no"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1",
+      "phase": "day_1_7",
+      "title": "Procure 15+ Original Municipal Death Certificates with QR Code",
+      "description": "Every Indian bank, insurance company, EPFO, and registrar insists on viewing the original or retaining an attested physical copy. Municipal corporations issue multiple copies upon formal request.",
+      "urgency": "high",
+      "completed": true,
+      "completedAt": "2026-09-18T09:00:00.000Z",
+      "statutoryReference": "Registration of Births and Deaths Act, 1969",
+      "actionLink": "https://crsorgi.gov.in"
+    },
+    {
+      "id": "task_2",
+      "phase": "day_1_7",
+      "title": "Send Urgent Death Notification & EMI Moratorium Notice to HDFC Bank",
+      "description": "Active NACH auto-debit of ₹46,500 is scheduled for the 5th of each month. Inward ECS bounces incur penalty charges and civil recovery notices. A formal death intimation freezes auto-debits.",
+      "urgency": "high",
+      "completed": false,
+      "statutoryReference": "RBI Guidelines on Fair Practices Code for Lenders",
+      "actionLink": "/liabilities"
+    },
+    {
+      "id": "task_3",
+      "phase": "day_1_7",
+      "title": "Trigger Loan Protection Insurance (Sarv Suraksha / Home Shield)",
+      "description": "The deceased had loan insurance linked to the home loan. Once triggered with the death certificate, the insurer pays the remaining ₹42,00,000 balance directly to HDFC Bank.",
+      "urgency": "high",
+      "completed": false,
+      "statutoryReference": "IRDAI Group Credit Life Guidelines"
+    },
+    {
+      "id": "task_4",
+      "phase": "day_8_30",
+      "title": "Intimate Employer HR & Submit EPFO Forms 20, 10D, and 5IF",
+      "description": "Notify HR to process unpaid salary, gratuity, and submit joint attestation for EPFO claim. EDLI (Form 5IF) pays up to ₹7,00,000 to the nominee without any employee contribution.",
+      "urgency": "high",
+      "completed": false,
+      "statutoryReference": "Employees' Deposit Linked Insurance Scheme, 1976"
+    },
+    {
+      "id": "task_5",
+      "phase": "day_8_30",
+      "title": "Submit Nominee Survivor Claim at ICICI Bank",
+      "description": "Nominee Pooja Sharma can submit claim form with death certificate and KYC. RBI circular mandates settlement within 15 calendar days.",
+      "urgency": "medium",
+      "completed": false,
+      "statutoryReference": "RBI Master Circular - Customer Service in Banks (Para 19)"
+    },
+    {
+      "id": "task_6",
+      "phase": "day_30_plus",
+      "title": "Procure Surviving Member Certificate / Legal Heir Certificate from Tehsildar",
+      "description": "Required for settling un-nominated assets, property transfers, and disputed claims. Apply via State e-District portal or local Revenue Officer.",
+      "urgency": "medium",
+      "completed": false,
+      "statutoryReference": "State Revenue Department Rules"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_death_cert",
+      "name": "Original Death Certificate (Govt / Municipal)",
+      "purpose": "Universal prerequisite for all banking, insurance, and statutory claims.",
+      "procurementAgency": "Municipal Corporation / Nagar Palika / Panchayat",
+      "mandatoryFor": [
+        "bank_account",
+        "fixed_deposit",
+        "epf_ppf",
+        "life_insurance",
+        "mutual_funds"
+      ],
+      "isAvailable": true,
+      "status": "gathered",
+      "copiesNeeded": 15,
+      "notes": "Keep 10 certified color copies with registrar QR code."
+    },
+    {
+      "id": "doc_surviving_heir",
+      "name": "Surviving Member / Legal Heir Certificate (Varisu)",
+      "purpose": "Proves legal relationship and identity of all surviving family members.",
+      "procurementAgency": "Tehsildar / Revenue Department / e-District Portal",
+      "mandatoryFor": [
+        "bank_account",
+        "real_estate"
+      ],
+      "isAvailable": false,
+      "status": "applied",
+      "copiesNeeded": 5,
+      "notes": "Application pending with Revenue Inspector."
+    },
+    {
+      "id": "doc_claimant_kyc",
+      "name": "Claimant Aadhaar, PAN & Cancelled Cheque",
+      "purpose": "Bank account verification for direct electronic claim credit (NEFT/RTGS).",
+      "procurementAgency": "UIDAI / NSDL / Bank",
+      "mandatoryFor": [
+        "bank_account",
+        "fixed_deposit",
+        "epf_ppf",
+        "life_insurance",
+        "mutual_funds"
+      ],
+      "isAvailable": true,
+      "status": "gathered",
+      "copiesNeeded": 5,
+      "notes": "Ensure name on claimant cheque matches Aadhaar exactly."
+    },
+    {
+      "id": "doc_form_5if",
+      "name": "EPFO Form 5IF (EDLI Insurance Claim)",
+      "purpose": "Statutory life insurance claim up to ₹7,00,000 for active PF members.",
+      "procurementAgency": "Employer Attestation + EPFO Portal",
+      "mandatoryFor": [
+        "epf_ppf"
+      ],
+      "isAvailable": false,
+      "status": "missing",
+      "copiesNeeded": 2,
+      "notes": "Requires employer signature & stamp."
+    }
+  ]
+}
