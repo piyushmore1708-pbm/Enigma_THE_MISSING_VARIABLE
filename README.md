@@ -1,4 +1,4 @@
-# CLAIM SATHI
+# CLAIM SAATHI
 
 ### Digital Estate & Financial Closure Assistant for Grieving Families
 
@@ -43,9 +43,9 @@ Develop a practical solution that:
 
 ---
 
-# 💡 Our Solution — CLAIM SATHI
+# 💡 Our Solution — CLAIM SAATHI
 
-**CLAIM SATHI** is a digital estate and financial closure assistant designed to help families organize the financial responsibilities left behind after the loss of a loved one.
+**CLAIM SAATHI** is a digital estate and financial closure assistant designed to help families organize the financial responsibilities left behind after the loss of a loved one.
 
 The platform brings financial information, documents, liabilities and required actions into a structured workspace.
 
@@ -53,7 +53,7 @@ The platform brings financial information, documents, liabilities and required a
 
 > **Triage → Discover → Verify → Organize → Act → Track**
 
-CLAIM SATHI focuses on helping families understand:
+CLAIM SAATHI focuses on helping families understand:
 
 **What exists? → What needs attention? → What documents are required? → What should be done next? → What has already been completed?**
 
@@ -81,7 +81,7 @@ The system then organizes the available information into an estate workspace.
 
 ## 2. Financial Estate Overview
 
-CLAIM SATHI provides a centralized view of the financial estate.
+CLAIM SAATHI provides a centralized view of the financial estate.
 
 ### Assets
 
@@ -107,7 +107,7 @@ CLAIM SATHI provides a centralized view of the financial estate.
 
 ## 3. First 30-Day Playbook
 
-CLAIM SATHI organizes financial closure activities into practical stages.
+CLAIM SAATHI organizes financial closure activities into practical stages.
 
 ### Days 1–7
 Immediate documentation and financial review.
@@ -136,13 +136,13 @@ Examples include:
 
 The system can also provide printable/structured drafts where appropriate.
 
-> CLAIM SATHI is a guidance and organization layer and does not replace the official process of the relevant institution.
+> CLAIM SAATHI is a guidance and organization layer and does not replace the official process of the relevant institution.
 
 ---
 
 ## 5. Financial Risk & Liability Shield
 
-CLAIM SATHI helps identify outstanding liabilities and recurring financial obligations.
+CLAIM SAATHI helps identify outstanding liabilities and recurring financial obligations.
 
 Examples:
 
@@ -159,7 +159,7 @@ Users can also be prompted to check whether applicable loan-protection or insura
 
 ## 6. Unclaimed Asset Discovery
 
-CLAIM SATHI provides guided pathways for discovering potentially unclaimed financial assets.
+CLAIM SAATHI provides guided pathways for discovering potentially unclaimed financial assets.
 
 The prototype includes guidance for systems such as:
 
